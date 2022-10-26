@@ -1,0 +1,220 @@
+body{
+    margin:0;
+    width: 100%;
+    font-family: 'roboto';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    width: 100%;
+}
+section{
+    margin-bottom: 20px;
+}
+header{
+    background: rgba(0, 0, 0, 0.8);
+    height: 44px;
+    position: fixed;
+    width: 100%;
+}
+.header{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.apple-logo{
+    width: 1%;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: #fff;
+}
+.wishlist{
+    margin-left:30px;
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.iPhone-14-bg, .watch-ultra-bg{
+    background:#fbfbfd;
+}
+
+.iPhone-14{
+    width: 665px;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.iPhone-14 h1{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 0;
+    letter-spacing: 0.28px;
+    color: #1D1D1F;
+}
+.iPhone-14 p{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.112px;
+    color: #1D1D1F;
+}
+.iPhone-14-a{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.iPhone-14-a a{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color:  #0066CC;
+}
+.iPhone-14-pro-bg{
+    background: #000;
+}
+.iPhone-14-pro{
+    width: 870px;
+    height: 692px;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: url(./images/figure\ \(1\).png);
+    background-size: 100%;
+}
+.iPhone-14-pro h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 0;
+    letter-spacing: 0.28px;
+    color:  #F5F5F7;
+}
+.iPhone-14-pro p{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.112px;
+    color:#F5F5F7;
+}
+.iPhone-14-pro-a{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.iPhone-14-pro-a a{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color:  #0066CC;
+}
+.watch-ultra{
+    width: 1300px;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.watch-ultra img{
+    margin-top: 60px;
+}
+.watch-ultra p{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.112px;
+    color: #1D1D1F;
+}
+.watch-ultra-a{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.watch-ultra-a a{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color:  #0066CC;
+}
+.watch-pod{
+    display: flex;
+    justify-content: space-around;
+}
+.watch-series {
+    height: 580px;
+    width: 45%;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: url(./images/figure\ \(3\).png);
+    background-size: 100%;
+}
+.AirPods{
+    height: 580px;
+    width: 45%;
+    margin:auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: url(./images/figure\ \(4\).png);
+    background-size: 100%;
+}
+.iPhone-14-pro h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 0;
+    letter-spacing: 0.28px;
+    color:  #F5F5F7;
+}
+.iPhone-14-pro p{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.112px;
+    color:#F5F5F7;
+}
+.iPhone-14-pro-a{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.iPhone-14-pro-a a{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color:  #0066CC;
+}
